@@ -24,10 +24,14 @@ function init() {
  
       index = 0;
     }
+  } else {
+    index = 0;
+  }
+}
   return init
   function alert(codes){
   if (codes.length === 10) {
-    return "Congrats!"
+    alert("Congrats!")
   } else {
   document.body.addEventListener('keydown',alert)
   }
