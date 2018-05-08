@@ -12,6 +12,7 @@ const codes = [
 ];
 
 function init() {
+  let index = 0;
   return init
   function alert(codes){
   if (codes.length === 10) {
