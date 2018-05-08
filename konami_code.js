@@ -15,10 +15,10 @@ function init() {
   let index = 0;
   function onKeyDownHandler(e) {
   const key = e.key;
-   if (key === alphabet[index]) {
+   if (key === codes[index]) {
     index++;
-     if (index === alphabet.length) {
-      alert("Hurray!");
+     if (index === codes.length) {
+      alert("Congrats!");
        index = 0;
     }
   } else {
