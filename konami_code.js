@@ -14,7 +14,7 @@ const codes = [
 function init() {
   return init
   function alert(codes){
-  if codes "Congrats!"}
+  if codes.length === 10, "Congrats!"}
   document.body.addEventListener('keydown',alert) {
   } 
 }
