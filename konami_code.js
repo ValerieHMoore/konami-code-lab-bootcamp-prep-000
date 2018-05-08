@@ -13,8 +13,9 @@ const codes = [
 
 function init() {
   return init
-  addEventListener('keydown',alert) {
   function alert(codes)
   "Congrats!"
+  addEventListener('keydown',alert) {
+  
 }
 }
