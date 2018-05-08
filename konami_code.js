@@ -25,11 +25,5 @@ function init() {
     index = 0;
   }
 }
-  function alert(codes){
-  if (codes.length === 10) {
-    alert("Congrats!")
-  } else {
-  document.body.addEventListener('keydown',alert)
-  }
-  }
-}
+  
+    document.body.addEventListener('keydown',onKeyDownHandler)
