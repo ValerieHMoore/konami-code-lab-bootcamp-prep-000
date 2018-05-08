@@ -15,6 +15,6 @@ function init() {
   return init
   function alert(codes)
   "Congrats!"
-  addEventListener('keydown',alert) {
+  document.body.addEventListener('keydown',alert) {
   } 
 }
