@@ -13,8 +13,8 @@ const codes = [
 
 function init() {
   return init
-  function alert(codes)
-  "Congrats!"
+  function alert(codes){
+  "Congrats!"}
   document.body.addEventListener('keydown',alert) {
   } 
 }
