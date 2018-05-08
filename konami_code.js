@@ -15,20 +15,16 @@ function init() {
   let index = 0;
   function onKeyDownHandler(e) {
   const key = e.key;
- 
-  if (key === alphabet[index]) {
+   if (key === alphabet[index]) {
     index++;
- 
-    if (index === alphabet.length) {
+     if (index === alphabet.length) {
       alert("Hurray!");
- 
-      index = 0;
+       index = 0;
     }
   } else {
     index = 0;
   }
 }
-  return init
   function alert(codes){
   if (codes.length === 10) {
     alert("Congrats!")
