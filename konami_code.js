@@ -16,6 +16,7 @@ function init() {
   if (codes.length === 10) {
     return "Congrats!"
   } else {
-  document.body.addEventListener('keydown',alert) {
-  } 
+  document.body.addEventListener('keydown',alert)
+}
+}
 }
