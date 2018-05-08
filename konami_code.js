@@ -13,6 +13,17 @@ const codes = [
 
 function init() {
   let index = 0;
+  function onKeyDownHandler(e) {
+  const key = e.key;
+ 
+  if (key === alphabet[index]) {
+    index++;
+ 
+    if (index === alphabet.length) {
+      alert("Hurray!");
+ 
+      index = 0;
+    }
   return init
   function alert(codes){
   if (codes.length === 10) {
