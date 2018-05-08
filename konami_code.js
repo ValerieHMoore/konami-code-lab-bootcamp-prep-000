@@ -16,6 +16,6 @@ function init() {
   function alert(codes)
   "Congrats!"
   addEventListener('keydown',alert) {
-  
+  } 
 }
 }
