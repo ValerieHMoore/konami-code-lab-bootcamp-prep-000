@@ -12,5 +12,8 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  addEventListener('keydown',alert) {
+  function alert(codes)
+  "Congrats!"
+}
 }
