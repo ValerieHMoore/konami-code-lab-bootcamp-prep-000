@@ -17,6 +17,6 @@ function init() {
     return "Congrats!"
   } else {
   document.body.addEventListener('keydown',alert)
-}
-}
+  }
+  }
 }
